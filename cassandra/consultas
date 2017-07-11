@@ -1,0 +1,16 @@
+-- Ver todas las zonas registradas
+select nombre
+from zonas;
+
+-- Zonas con índice verde dentro de un rango de tiempo
+SELECT nombrezona, fecha
+FROM aire.zonas_con_indices_fechas
+where colorindice = 'Verde'
+and fecha > '2010-01-01 00:00:01'
+and fecha < '2010-12-31 23:59:59';
+
+--Encontrar la media de medidas de todos los sensores de Quimioluminiscencia de Galapa
+SELECT avg(valorObtenido) from sensores_por_zonas where nombresensor = 'Quimioluminiscencia' and nombrezona = 'Galapa';
+
+-- Encontrar la información de todos lo sensores de una zona (Marinilla)
+SELECT * from sensores_por_zonas where nombrezona = 'Marinilla';
