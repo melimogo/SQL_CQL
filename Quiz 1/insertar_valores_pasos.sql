@@ -1,0 +1,10 @@
+INSERT INTO pasos( fepaso, peaje_id, propietario_id ) VALUES ( '2016-10-18 14:00',3,1);
+INSERT INTO pasos( fepaso, peaje_id, propietario_id ) VALUES ( '2016-10-05 16:00',4,2);
+INSERT INTO pasos( fepaso, peaje_id, propietario_id ) VALUES ( '2016-10-08 19:00',5,3);
+INSERT INTO pasos( fepaso, peaje_id, propietario_id ) VALUES ( '2016-10-16 08:00',4,5);
+INSERT INTO pasos( fepaso, peaje_id, propietario_id ) VALUES ( '2016-10-15 15:00',8,7);
+INSERT INTO pasos( fepaso, peaje_id, propietario_id ) VALUES ( '2016-10-28 17:00',6,8);
+INSERT INTO pasos( fepaso, peaje_id, propietario_id ) VALUES ( '2016-10-20 15:00',2,5);
+INSERT INTO pasos( fepaso, peaje_id, propietario_id ) VALUES ( '2016-10-04 03:00',1,7);
+INSERT INTO pasos( fepaso, peaje_id, propietario_id ) VALUES ( '2016-10-09 05:00',7,6);
+INSERT INTO pasos( fepaso, peaje_id, propietario_id ) VALUES ( '2016-10-10 01:00',7,1);
