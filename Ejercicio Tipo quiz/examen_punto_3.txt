@@ -1,0 +1,9 @@
+agregar una columna con precio de venta en productos y el productos_salida
+
+3. hacer un trigger que cambie el precio de venta de un producto donde que den ganancias,
+es decir si compro los brownies a 500 los debo de vender a 600
+solo se sube el precio de venta cuando le suben el precio de compra.
+
+se debe subir el 20% del valor que lo compra.
+
+el producto_salida debe ser mayor que en productos.
